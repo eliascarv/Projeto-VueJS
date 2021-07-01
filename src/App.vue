@@ -1,5 +1,5 @@
 <template>
-  <NavBar />
+  <NavBar :applogo="applogo" :alt="appname"/>
   <router-view/>
   <Footer />
 </template>
@@ -13,6 +13,12 @@ export default {
   components: {
     NavBar,
     Footer
+  },
+  data() {
+    return {
+      applogo: '/img/logo.png',
+      appname: 'Burger'
+    }
   }
 }
 </script>
@@ -25,5 +31,19 @@ export default {
 
 * {
   font-family: Inter, sans-serif;
+}
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-container {
+  margin: 50px;
+  min-height: 250px;
 }
 </style>
