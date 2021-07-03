@@ -1,6 +1,6 @@
 <template>
   <div id="banner">
-    <h1>Make Your Burguer</h1>
+    <h1>Make Your Burger</h1>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
 <style scoped>
 #banner {
   background-image: url('/img/burger.jpg');
-  background-position: 0 -400px;
+  background-position: 0 60%;
   background-size: cover;
   height: 350px;
   display: flex;

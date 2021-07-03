@@ -16,31 +16,31 @@ export default {
 </script>
 
 <style scoped>
-  #nav {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    padding: 15px 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+#nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 15px 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-  #nav #logo-url {
-    margin-right: auto;
-  }
+#nav #logo-url {
+  margin-right: auto;
+}
 
-  #logo {
-    height: 40px;
-    width: 40px;
-  }
+#logo {
+  height: 40px;
+  width: 40px;
+}
 
-  #nav a {
-    text-decoration: none;
-    color: #fd8f31;
-    margin: 0px 12px;
-    transition: 0.5s;
-  }
+#nav a {
+  text-decoration: none;
+  color: #fd8f31;
+  margin: 0px 12px;
+  transition: 0.5s;
+}
 
-  #nav a:hover {
-    color: #fccf3f;
-  }
+#nav a:hover {
+  color: #fccf3f;
+}
 </style>
